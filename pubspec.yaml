@@ -3,7 +3,7 @@ description: Play music/audio stored in assets files directly from Flutter & Net
 version: 3.0.6
 
 #author: Florent Champigny <champigny.florent@gmail.com>
-homepage: https://github.com/presence/Flutter-AssetsAudioPlayer
+homepage: https://github.com/presence-app/Flutter-AssetsAudioPlayer
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
@@ -34,7 +34,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.github.presence.assets_audio_player
+        package: com.github.presence-app.assets_audio_player
         pluginClass: AssetsAudioPlayerPlugin
         mainClass: AssetsAudioPlayerPlugin
       ios:
